@@ -3,8 +3,6 @@ import os
 import urllib.parse
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
-from pymongo.errors import ConnectionFailure, ConfigurationError
-from bson.objectid import ObjectId
 from dotenv import load_dotenv
 
 load_dotenv()
